@@ -1,0 +1,1 @@
+praktik etmey ucun hazirlanan fayl.
