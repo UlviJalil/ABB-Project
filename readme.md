@@ -1,1 +1,2 @@
-praktik etmey ucun hazirlanan fayl.
+My new file.
+
