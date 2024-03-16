@@ -1,7 +1,7 @@
 
 
 
-console.log("My new JS file")
+console.log("My new JS file");
 
 
 
