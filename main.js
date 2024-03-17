@@ -1,16 +1,19 @@
+//alert("Cixmazdan evvel bir fikirles qaqa))");
 
+/*
+ let ad = prompt("Enter your name");
+ console.log(ad);
 
-var num1 = 10;
-var num2 = 5;
-var sum = num1 + num2;
+ let soyad = prompt("Enter your surname");
+ console.log(soyad);
 
-console.log(sum);
+ let yas = prompt("Enter your age");
+ console.log(yas);
 
+ console.log(typeof)
 
+ */
 
-
-
-
-
-
+ let result = confirm("Hesabdan cixmaq istediyve eminsen?")
+ console.log(result)
 
