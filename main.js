@@ -1,19 +1,36 @@
-//alert("Cixmazdan evvel bir fikirles qaqa))");
+/* 1. (ORTALAMA TAPMAQ):
 
-/*
- let ad = prompt("Enter your name");
- console.log(ad);
+ticket1 30% ticket2 30% final 40%
 
- let soyad = prompt("Enter your surname");
- console.log(soyad);
+let ticket1 = Number(prompt("Ticket 1 balinizi girin"));
+let ticket2 = Number(prompt("Ticket 2 balinizi girin"));
 
- let yas = prompt("Enter your age");
- console.log(yas);
+let final = Number(prompt("Final balinizi girin"));
 
- console.log(typeof)
+let average = (ticket1*0.3) + (ticket2*0.3) + (final*0.4);
 
- */
+if(average >= 60){
+    alert("Qebul oldunuz")
+} else{
+    alert("Qebul olmadiz")
+}
 
- let result = confirm("Hesabdan cixmaq istediyve eminsen?")
- console.log(result)
+2. (IF-ELSE):
+
+let secilenYol = prompt("Xais olunur getmek istediyviz yolu secin");
+
+if(secilenYol ==1){
+    alert("Secilen yol"  +   secilenYol   + "  yoldur  ");
+}
+else if(secilenYol ==2){
+    alert("Secilen yol"  +   secilenYol   + "  yoldur  ");
+}
+else if(secilenYol ==3){
+    alert("Secilen yol"  +   secilenYol   + "  yoldur  ");
+}
+else{
+    alert("Sen getdiyin yol yol deyil qaqas")
+}
+
+*/
 
