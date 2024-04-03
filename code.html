@@ -1,57 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Learning Front End</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="main.js"></script>
+
+  <title>Learning Front End</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
-<body> 
-  
+<body>
+
+  <div class="login">
+    <h1>Login</h1>
+
     <form action="#">
-     <label for="name">
-       Adinizi girin <input id="name" type="text" placeholder="Name" required>
-     </label>
-     <br>
-     <label for="sn">
-       Soyadinizi girin <input id="sn" type="text" placeholder="Surname" required>
-     </label>
-     <br>
-     <label for="pass">
-       Sifrenizi girin <input id="pass" type="password" placeholder="Password" required maxlength="10">
-     </label>
-     <br>
-     <label for="mail">
-        E-mailnizi girin <input id="mail" type="email" placeholder="E-mail" required>
-      </label>
-      <br>
+      <input type="email" placeholder="Email" required checked>
+      <br><br>
+      <input type="password" placeholder="Password" required maxlength="10">
+      <br><br>
+      <a href="#">Forgot password?</a>
+      <br><br>
+      <input class="button" type="submit" value="Login">
+      <br><br>
 
-      <label for="cins">
-       Kisi <input id="cins" type="radio" name="CinsiyyetRadio" value="Kisi">
-      </label>
-
-      <label for="cins">
-       Qadin <input id="cins" type="radio" name="CinsiyyetRadio" value="Kisi">
-      </label>
-
-      <label for="cins">
-       Other <input id="cins" type="radio" name="CinsiyyetRadio" value="Other">
-      </label>
-<br>
-    Idman etmek <input type="checkbox">
-    <br>
-    Kitab oxumaq <input type="checkbox">
-    <br>
-    Musiqi dinlemek <input type="checkbox">
-<br><br>
-    <input type="submit" value="Send"> <input type="reset" value="Reset"> <input type="search" value="Search">
-
+      Don't have an account? <a href="#">Signup</a>
+      <br><br><br><br>
+     
+      <div class="fb">
+        <span><i class="fa-brands fa-facebook"></i>
+          Login with Facebook</span>
+      </div>
+      <div class="google">
+        <span><i class="fa-brands fa-google" style="color: #db4437;"></i>
+          Login with Google
+        </span>
+      </div>
     </form>
-    
+
+
+  </div>
+
+
 </body>
+
 
 </html>
