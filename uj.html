@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulvi Jalil</title>
+
+
+
+</head>
+<!-- (VSC Qisayollari)
+
+    1. ALT + SHIFT + F:  Kodlari Duzenlemek
+	2. CTRL + ALT + Asagi ve ya Yuxari ox:  kursoru boyutur. (birlikde yazmaq ucun)
+	3. FN + Sag Sol ox:  cumlenin basina ve ayagina kecir
+	4. Yazini secib CTRL + D:  eyni olan diger yazilarida secir daha sonra birlikde duzenleme falan edile biler
+	5. CTRL + SHIFT + K: Setiri silir
+	6. CTRL + ENTER: Setir elave edir
+-->
+
+<!-- (VSC Etiketleri)
+
+  1. <P> = PARAQRAF ETIKETI
+  2. <img src etiketi = (image source - qaynag) : Sekil elave etmey ucun istifade olunur. width (eni) height (hundurluyu)
+  3. <center> = Meluamti merkeze getirir.
+  4. <a href = Link yerlesdirmek ucun
+-->
+
+<!-- (VSC Header basliq) elementleri)
+
+    1. <h1>
+	2. <h2>
+	3. <h3>
+	4. <h4>
+	5. <h5>
+	6. <h6>
+-->
+
+<!-- (VSC Şekillendirme Etiketleri)
+
+    1. <hr> = Melumatin altindan uzun  xet cekir.
+	2. <br> (break) = 1 Setir bosluq buraxir.
+	3. <strong> = (guclu) = Cumleni qalin yazir.
+	4. <b> = Cumleni qalin yazir (strongla eyni)
+	5. <i> (Italic) = Cumleni eyri yazir.
+	6. <mark> = (isaretlemek).
+    7. <small> = (kicik) Cumleni kicik yazir.
+    8. <s> = Cumlenin ustunnen xet cekir.
+    9. <del> = Kohne melumatin ustunnen xet cekir.
+       <ins> = Yeni melumati bildirir altinnan xet cekir.
+    10. <u> = Herif sehvi olan melumatin altinnan xet cekir.
+    11. <sub> = Reqemi altda yazir.
+        <sup> = Reqemi yuxarda yazir.
+-->
+
+<!-- (VSC Table yaratmaq)
+
+    <table border="1">
+    <tr>
+        <td>Name</td>
+        <td>Surname</td>
+        <td>Age</td>
+    </tr>
+    <tr>
+        <td>Ulvi</td>
+        <td>Jalil</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>Sahin</td>
+        <td>Jalil</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Gulay</td>
+        <td>Jalil</td>
+        <td>16</td>
+    </tr>
+</table>
+-->
+
+<!-- (Block Etiketleri)
+
+    1. Paraqraf <p>
+-->
+
+<!-- (Paraqraf Etiketi)
+    <center>
+    <img src="Sekiller/Азербайджан_флаг.jpg" alt="Not Found" width="350px">
+    <h1>Dovlet Himni</h1>
+    <br/>
+    <p>Azərbaycan! Azərbaycan!</p>
+      <p>Ey qəhrəman övladın şanlı Vətəni!</p>
+      <p>Səndən ötrü can verməyə cümlə hazırız!</p>
+      <p>Səndən ötrü qan tökməyə cümlə qadiriz!</p>
+      <p>Üçrəngli bayrağınla məsud yaşa!</p>
+      <p>Üçrəngli bayrağınla məsud yaşa!</p>
+      <br/>
+      <p>Minlərlə can qurban oldu,</p>
+      <p>Sinən hərbə meydan oldu!</p>
+      <p>Hüququndan keçən əsgər,</p>
+      <p>Hərə bir qəhrəman oldu!</p>
+</center>
+-->
+
+<!-- (Link Etiketi)
+    <a href="https://www.basqalresort.az/az" target="_blank" >Klikleyin</a>
+
+    <a href="https://www.instagram.com/" target="_blank">
+<img src="Sekiller/Instagram icon.jpeg" alt="Not Found" height="50" width="50">
+</a>
+
+-->
+
+<!-- (Listler: ol(ordinary-duzenli) ul(unordinary-duzensiz))
+<ol type="1">
+    <li>
+        Masin Markalari
+        <ol type="I">
+            <li>Hyundai</li>
+            <li>Kia</li>
+            <li>BMW</li>
+        </ol>
+    </li>
+
+    <li>
+        Komputer Markalari
+        <ol type="1">
+            <li>
+                Lenovo
+                <ol type="a">
+                 <li>Ideapad 3</li>
+                 <li>Ideapad 7</li>
+                </ol>
+            </li>
+            <li>HP</li>
+            <li>Apple</li>
+        </ol>
+    </li>
+ </ol>
+-->
+
+<!-- (Cedvel yaratmaq)
+
+<table border="1">
+    <tr>
+        <th colspan="3">Sexsi Melumatlar</th>
+    </tr>
+
+    <tr>
+        <td>Ulvi</td>
+        <td>Jalil</td>
+        <td>22</td>
+    </tr>
+
+    <tr>
+        <td>Sahin</td>
+        <td>Jalil</td>
+        <td>15</td>
+    </tr>
+
+    <tr>
+        <td>Pasa</td>
+        <td>Ismayil</td>
+        <td>10</td>
+    </tr>
+ </table>
+-->
+
+<!-- (Sıtat Etiketleri)
+
+1. <abbr> = Sıtat qoymaq istediymiz melumatin qarsisinda islediriy.
+2. <q> = Melumati dırnaq icerisinde yazır.
+3. <blockquote> = Sıtat qoymaq istediymiz melumatı icersinde yaziriq bosluqlar buraxaraq yazır
+4. <cite> = Meluamti secilmesi ucun eyri + ince yazir.
+
+For Example:
+    
+    <p>
+        Code Academy-de <abbr title="UJ">Ulvi</abbr> oxuyacaq
+    </p>
+ 
+    <p>
+    Ulvi dedi ki sen <q>gotsen</q>
+    </p>
+
+    <p>
+        Ulvi Jalil'e gore heyatin qanunu budur:
+    </p>
+    <blockquote>
+        Hec vaxt teslim olma
+    </blockquote>
+
+    <p>
+        Wikipediya-ya gore bayragin tesviri beledir
+    </p>
+    <blockquote cite="https://az.wikipedia.org/wiki/Az%C9%99rbaycan_bayra%C4%9F%C4%B1">
+        Bayrağın eninin uzunluğuna nisbəti 1:2-dir. Bayraq üç rəngli parçadan (trikolor) ibarətdir.
+    </blockquote>
+
+-->
+
+<!-- (Iframe Etiketi)- Her hansi sayti, yt videosun, oz sayitimizda gosterir
+
+    For Examlpe:
+    
+     <iframe src="https://www.basqalresort.az/az" width="400" height="800"></iframe>
+    
+    <iframe width="500" h
+-->
+
+<!-- (Medya Etiketleri)
+
+    <audio controls loop>
+    <source src="Mahnilar/Don Omar - Danza Kuduro.mp3" type="audio/mpeg">
+  </audio>
+  
+
+  <video controls loop width="320" height="240" poster="Sekiller/Azerbaijan Flag icon 2.jpg">
+    <source src="Videolar/videoplayback.mp4" type="video/mp4">
+  </video>eight="300" src="https://www.youtube.com/embed/k9EE6tYTP9M"></iframe>
+
+  (HTML DERSLERI BITDI.)
+-->
+
+
+<!-- (CSS Seçiciler) :) CSS START.
+
+    1. Universal seçici * = Etiketlerin hamsini secir.
+    2. Grup seçici , , , = Etiketleri sirayla vergul qoyaraq secir.
+    3. Neve seçici (div b{}).
+    4. Usaq seçici p > b{} = Yanliz oz usaqi olan etiketi secir.
+    5. Bitisik qardas (A+B) seçici = Istediymiz etiketden sonra gelen etiketi secir.
+    6. Umumi qardas (A~B) seçici = Istediymiz etiketden sonra gelen etiketlerin hamsini secir.
+    7. Nitelik seçici ([target]) = Nitelik seçmek ucun istifade olunur.
+    8. Nitelik dəyər seçici ([target="_blank"]) = Nitelik dəyər seçmək ucun istifade olunur.
+    9. Nitelik dəyər seçici ([alt~="Not Found"])
+    10. Nitelik dəyər seçici (div[class|="Hyundai"]) = Nitelik dəyəri secdiyimiz kelime ile baslayan etiketileri secmek ucun istifade olunur. (Hyundai baslangicda gelmeli ve yaxud - ile yazilmalidir).
+    11. Nitelik dəyər seçici (div[class^="Hyundai"]) = Nitelik dəyəri secdiyimiz kelime ile baslayan etiketilerin "hamsini" secmek ucun istifade olunur
+    12. Nitelik dəyər seçici (div[class$="Lenovo"])  = Nitelik dəyəri secdiyimiz kelime ile bitən etiketi seçmək üçün istifade olunur.
+    13. Nitelik dəyər seçici (div[class*="Lenovo"])  = Nitelik dəyərlərin hamsını seçir.
+    14. Nitelik dəyəri boyuk kicik herf problemi i flaqı (div[class*="Notebook" i]).
+
+-->
+
+
+
+
+<!-- (CSS SÖZDE ÖĞELER ::) 
+
+1. ::AFTER SÖZDE ÖĞESİ
+    
+  div{  background-color: yellow ;
+}
+
+div::after{
+    content: "Sonradan Melumat";
+    color: blue;
+    background-color: green;
+}.
+
+2. ::BEFORE SÖZDE ÖĞESİ
+
+div::before{
+    content: "Onceden Melumat";
+    color:white;
+    background-color: green;
+}.
+
+attr() Funksiyasi: Nitelikde ki deyerleri secmek ucun istifade olunur.
+
+div::after{
+    content: attr(title);
+
+
+3. ::FIRST LETTER SÖZDE ÖĞESİ = Secdiyimiz etiketde ki bir melumatin ilk herfini secir.
+
+4. ::FIRST LINE SÖZDE ÖĞESİ = Məlumatın ilk sətirini seçir.
+
+5. ::SELECTION SÖZDE ÖĞESİ =  Kursorla seçilen melumata stil verir.
+
+::selection{
+    background-color: chartreuse;
+}
+
+6. PLACEHOLDER SÖZDE ÖĞESİ :: (Formla elaqedar: input , textarea) 
+
+::placeholder{
+    color: chartreuse;
+}
+
+-->
+
+
+<!-- (CSS SÖZDE SİNİFLER: )
+
+1. :FIRST CHILD SÖZDE SİNİFİ (İLK USAQ) = Öz uşaqı olan ilk etiketi seçir. +
+2. :LAST CHILD  SÖZDE SİNİFİ (SON USAQ) = Öz uşaqı olan son etiketi seçir. +
+3. :FIRST OF TYPE SÖZDE SİNİFİ = Etiketin tipinə görə seçir. + 
+
+  (<p>paz etiketi</p>       
+  <div>div etiketi</div>
+  <div>div etiketi</div>)
+
+  div:first-of-type{
+    background-color: lime;
+}
+4. :NTH-CHILD  SÖZDE SİNİFİ = Istediyimiz usaq etiketini secmek ucun istifade olunur. (Riyazi) +
+
+For Example:
+
+1.(3n+2)       (-n+8)
+
+(3x0)+2=2     (0+8)=8
+(3x1)+2=5     (-1+8)=7
+(3x2)+2=8     (-2+8)=6
+(3x3)+2=11    (-3+8)=5
+...           ...
+
+5. :NTH-OF-TYPE SÖZDE SİNİFİ = Etiketin tipine gore secir. +
+
+<div>div etiketi</div>
+  <div>div etiketi</div>
+  <p>paz etiketi</p>
+  <div>div etiketi</div>
+
+  div:nth-of-type(3) {
+    background-color: lime;
+}
+6. :NTH-LAST-CHILD SÖZDE SİNİFİ = NTH-CHILD -ın əksi.
+7. :NTH-LAST-OF-TYPE SÖZDE SİNİFİ = Etiketin tipine gore secir.
+8. :HOVER SÖZDE SİNİFİ = Etiketin arxa fonuna reng verir.
+9. :CHECKED SÖZDE SİNİFİ = (checkbox,radio) secilende checked olunanda onnan sora gelen etiketlere stil verir.
+10. :FOCUS SÖZDE SİNİFİ = Etiketlere odaklandiginda focus oldugunda stil vermek ucun istifade olunur. (tabindex)
+11. :FOCUS within SÖZDE SİNİFİ = Usaqlarin valideyinine stil vermek ucun istifade olunur.
+ <ul>
+        <li tabindex="1">list 1</li>
+        <li tabindex="2">list 1</li>
+        <li tabindex="3">list 1</li>
+    </ul>
+CSS:
+
+ul:focus-within{
+    background-color: red;
+}
+
+12. :ONLY CHILD SÖZDE SİNİFİ = Evin tek usaqin secir)).
+13. :ONLY OF TYPE SÖZDE SİNİFİ = Etiketin tipine gore secir.
+14. :NOT SÖZDE SİNİFİ = Deyer verilmeyen etiketleri secmek ucun istifade olunur. (olumsuz)
+15. :EMPTY SÖZDE SİNİFİ = Bos olan etiketi display none edir gostermir.
+16. :VALID,INVALID SÖZDE SİNİFİ = Form etiketlerinin etibarlılığını yoxlayır. (etibarli,etibarsiz)
+17. :disabled, :required, :readonly, :readwrite SÖZDE SİNİFLERi.
+18. :active, :link, :visited, :any-link SÖZDE SİNİFLERi.
+
+active = Uzerine kliklendiyinde arxa plan rengini deyisir.
+link = Ziyaret edilmiyen linklerin color-ni deyisir.
+visited = Ziyaret edilmis linklerin color-ni deyisir.
+any-link = Yalniz link ozelliyi olan linkleri secib background-color ni deyise bilirik.
+
+19. :target SÖZDE SİNİFİ = Hedeflediyi etikete stil verir.
+<nav>
+<a href="#paragraf1">paragraf 1-e tullan</a>
+<a href="#paragraf2">paragraf 2-e tullan</a>
+<a href="#paragraf10">paragraf 10-a tullan</a>
+</nav>
+<hr>
+
+<p id="paragraf1">
+    birinci paragrafim
+</p>
+
+<p id="paragraf2">
+    ikinci paragrafim
+</p>
+<p id="paragraf3">
+    ikinci paragrafim
+</p>
+<p id="paragraf4">
+    ikinci paragrafim
+</p>
+<p id="paragraf5">
+    ikinci paragrafim
+</p>
+<p id="paragraf6">
+    ikinci paragrafim
+</p>
+<p id="paragraf7">
+    ikinci paragrafim
+</p>
+<p id="paragraf8">
+    ikinci paragrafim
+</p>
+<p id="paragraf9">
+    ikinci paragrafim
+</p>
+<p id="paragraf10">
+    ikinci paragrafim
+</p>
+
+p:target{
+    background-color: lime;
+}
+
+20. :in-range, :out-of-type SÖZDE SİNİFİ. 
+<input type="number" min="3" max="10" value="17">
+
+input:in-range{
+    background-color: aqua;
+}
+
+input:out-of-range{
+    background-color: lime ;
+}
+
+21. :root SÖZDE SİNİFİ = En ust duzey sozde sinif. 
+
+(SOZDE SINIFLER BITDI).
+
+
+
+CSS Dersleri-51: width-height Ozellikleri (width-genisliy, height-hundurluk) = Secdiyimiz etiket inline etiketdise ona width ve height vere bilmirik.
+CSS Dersleri-52: min-width max width - min height max height = Min Max width,height vermek ucun istifade olunur.
+CSS Dersleri-53: min-content ve max-content deyerleri = Etiketin melumati qeder genisliy ve hundurluk verir.
+writing-mode: vertical-lr; (Yazini dik cevirir).
+
+CSS Dersleri-54: padding (ic bosluq) ozelliyi.
+padding:Opwi
+padding-top: Yuxari bosluq
+padding-right:  Sag bosluq
+padding-bottom: Alt bosluq
+padding-left: Sol bosluq
+
+
+CSS Dersleri:-55/ margin (col bosluq) ozelliyi.
+margin:opwi
+margin-top: Yuxari çöl bosluq
+margin-right: Sag çöl bosluq
+margin-bottom: Asagi çöl bosluq
+margin-left: Sol çöl bosluq
+
+
+CSS Dersleri:-56/ border ozelliyi (Kenarliq veririk).
+1. border-style: dotted       (top-right-bottom-left) = Hamsina aiddir.
+2. border-width: 250px
+3. border-color: aqua transparent-gor unmez
+4. border
+5. border-right: none; gizledir
+
+
+CSS Dersleri-57/ outline ozelliyi. (Col Kenarliq)
+1. outline-style
+2. outline-width
+3. outline-color
+4. outline-offset = Border kenarliqi ile bosluq yaradir (Bordere dexli yoxdu) px
+5. outline
+
+
+CSS Dersleri-58/ box-sizing (qutu olcusu) = Etiketin genisliyin ve hundurluyun hesablayir. (standart veziyyete getirir)
+div{
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    border: 10px solid aqua;
+    (box-sizing: border-box;)
+
+CSS Dersleri-59/ border-radius ozelliyi. = Etiketin qırağların yumuşaldır.
+div{
+    width: 200px;
+    height: 200px;
+    border: 10px double black;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+img{
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+CSS Dersleri-61/ color ozelliyi = Yazilarin rengini deyistiririk.
+1.rgb()
+2.rgba()
+3.hsl()
+4.hsla()
+
+CSS Dersleri-62/ font-family (Yazi tipi Ailesi) = Yazi tipini deyistiririk.
+Ailələr:
+1. serif
+2. sans-serif
+3.monospace
+4.cursive
+5.fantasy
+6.system 
+
+CSS Dersleri-63/ font-size (Yazı ölçüsü).
+1.px 
+2.em
+3.rem
+
+CSS Dersleri-64/ font-style (Yazı stili).
+
+CSS Dersleri-65/ font-weight (Yazı genişliyi). (Hamsı butun fontlarda islemir)`
+1. 100-ince (thin)
+2. 200
+3. 300-light
+4. 400-normal
+5. 500-medium
+6. 600-semi bold
+7. 700-bold
+8. 800-extra bold
+9. 900-heavy
+
+CSS Dersleri-67/ line-height ozelliyi. (setirler arasi interval). 
+
+CSS Dersleri-68/ font ozelliyi (opwi).
+
+CSS Dersleri-69/ letter-spacing (herf bosluqu).
+
+CSS Dersleri-70/ word-spacing (cumle arasi bosluq).
+
+CSS Dersleri-71/ text-align (Metin Hizalama) 
+center,right.left
+
+CSS Dersleri-72/ text-align-last (Cumlede sonuncu setiri hizalayir).
+
+CSS Dersleri-73/ text-decoration ozelliyi (metine bezek verir).
+1. text-decoration-line:
+2. text-decoration-color:
+3. text-decoration-style:
+4. text-decoration (opwi)
+
+CSS Dersleri-74/ text-indent ozelliyi (metin abzas verir).
+
+CSS Dersleri-75/ white-space ozelliyi (Bosluqlari idare edirik).
+1.nowrap ( Melumati bir setirde davam etdirir).
+2.pre ( Melumati olduqu kimi gosterir).
+3.pre-wrap (Məlumat daşırsa yeni sətirə keçirt ama düzəni qoru.)
+4.pre-line (Melumati br etiketi olmadan setiri asagiya endirir.)
+
+
+CSS Dersleri-76/ text-transform ozelliyi (Herfi boyuk,kicikle yazmaq).
+1. capitalize (ilk herfleri boyukle yazir).
+2. lowercase (herflerin hamsini kicikle yazir).
+3. uppercase (herflerin hamsini boyukle yazir).
+4 none (gizledir).
+
+
+CSS Dersleri-77/ word-wrap ozelliyi (Eger hansisa bezpantov saytda bosluq buraxmadan uzun uzun yazirsa
+metini toplamaq ucun istifade olunur.)
+p{
+    width: 50px;
+    border: 3px solid lime;
+    word-wrap: break-word;
+}
+
+
+CSS Dersleri-78/ text-shadow ozelliyi (Metnin arxa fonuna kolge verir)
+p {
+    (text-shadow: 5px 5px 10px lime;)
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+CSS Dersleri-79/ background-color ozelliyi (Metnin arxa fonuna reng verir.)
+
+CSS Dersleir-80/ background-image ozelliyi (Arxa fona sekil verir).
+
+
+CSS Dersleri-81/ background-repeat ozelliyi (Arxa fonda ki sekilleri tekrarlayir).
+1. no-repeat (Tekrarlama)
+2. repeat (normal tekrarla)
+3. repeat-x (Kitab formasinda tekrarla)
+4. repeat-y (Albom formasinda tekrarla)
+
+
+CSS Dersleri-82/ background-position ozelliyi (Arxa fondaki sekilin pozisyonunu mueyyen edir).
+body{
+    background-image:url(Sekiller/Instagram\ icon.jpeg);
+    background-repeat: no-repeat;
+    (background-position: right 5% top 20px;)
+
+}
+
+
+CSS Dersleri-83/ background-clip ozelliyi (Arxa planda ki sekil ve ya rengin haralari tutdugunu mueyyen edirik).
+1.border-box
+2.content-box
+3.padding-box
+
+
+CSS Dersleri-84/ background-size ozelliyi (Arxa plandaki sekilin olcusunu mueyyen edirik).
+1.contain (Hundurluyun tam oturdur)
+2.cover (Hundurluyunde Genisliyinde tam oturdur) ideal
+3.px em %
+
+
+CSS Dersleri-85/ background-attachment ozelliyi (Arxa planin kursorla hereket edib-etmemeyini idare edirik)
+1. fixed
+
+
+CSS Dersleri-86/ background ozelliyi (opwi).
+
+
+ mkdir (make directory)
+ cd (change directory)
+ ls 
+
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; ????
+
+
+.img-container{
+    width: 100%;
+    height: 500px;
+
+    dom 
+}
+
+.img-container div{
+    background-image: url("/Images/1504993-free-download-royal-wallpaper-1920x1200-ipad.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 250px;
+    font-size: 20px;
+}
+
+.input{
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+
+
+<div class="login">
+  <h1>Login</h1>
+
+  <form action="#">
+    <input type="email" placeholder="Email" required checked>
+    <br><br>
+    <input type="password" placeholder="Password" required maxlength="10">
+    <br><br>
+    <a href="#">Forgot password?</a>
+    <br><br>
+    <input class="button" type="submit" value="Login">
+    <br><br>
+
+    Don't have an account? <a href="#">Signup</a>
+  </form>
+
+
+
+
+  html,body{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: blue;
+}
+.login{
+width: 400px;
+height: 500px;
+background-color: white;
+border-radius: 10px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+margin-left: 500px;
+margin-top: 50px;
+
+}
+
+.login input{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: black;
+
+}
+
+.login .button{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+}
+
+.login a {
+    color: blue;
+}
+
+.login .gender input{
+    font-size: 5px;
+}
+</div>
+
+-->
+
+
+<html>
+
+
+<body>
+    
+
+
+
+</body>
+
+
+</html>
