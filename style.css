@@ -1,30 +1,175 @@
-html,body{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.bell-logo{
-   text-align: center;
-   font-size: 50px;
-   margin-top: 30px;
-}
-
-.child{
-    width: 25px;
-    height: 25px;
-    border: 5px solid lime;
-    outline: none;
+body{
     background-color: lime;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-container{
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 30px;
+    
+}
+
+.card-container p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card-container .card{
+    width: 390px;
+    height: 200px;
+    background-color: #C13584;
+    margin: auto;
+    position: relative;
+    top: -20px;
+    border-radius: 5px;
+}
+
+.card-container .card-content{
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
+   padding-top: 0px;
+}
+
+.card button{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 130px;
+    top: 130px;
     color: white;
+    background-color: #C13584;
+    border: 1px solid pink;
     border-radius: 50px;
-    font-size: 30px;
+    cursor: pointer;
+ }
+
+ .card-container2{
+    width: 350px;
+    height: 420px;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 50px;
+ }
+
+ .card-container2 img{
+    width: 350px ;
+ }
+
+ .card-content2{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 15px;
-    left: -7px;
-    margin-left: 700px;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 15px;
+ }
+
+ .card-content2:nth-child(2){
+    text-align: center;
+ }
+
+.buttons .fa-facebook-f{
+    width: 30px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    font-size: 13px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 70px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
+.buttons .fa-twitter{
+    width: 30px;
+    height: 30px;
+    border: 1px solid ;
+    border-radius: 50px;
+    font-size: 13px;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -30px;
+    left: 120px;
+    cursor: pointer;
+}
 
+.buttons .fa-instagram{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #C13584;
+    border-radius: 50px;
+    font-size: 13px;
+    background-color: #C13584;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
+    left: 170px;
+    cursor: pointer;
+
+}
+
+.buttons{
+    margin-left: 40px;
+}
+
+.card-container3{
+    width: 380px;
+    height: 420px;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
+
+.card-container3 img{
+    width: 380px;
+}
+
+.card-content3{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.card-content3 h2{
+    padding-bottom: 15px;
+    
+}
+
+.card-content3 button{
+    width: 110px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
