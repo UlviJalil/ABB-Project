@@ -2,174 +2,819 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
-    background-color: lime;
+
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.container .header{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+.header img{
+    margin-right: 3px;
+}
+
+.header .firstP{
+    color: #000;
+}
+
+.header .firstP:hover{
+    color: #207dd3;
+}
+
+.header .secondP{
+    margin-left: 10px;
+    margin-right: 300px;
+    color: #000;
+}
+
+.header .secondP:hover{
+    color: #207dd3;
+}
+
+.header h2{
+    color: #3ba6de;
+}
+
+.header h2:nth-child(2){
+    margin-right: 5px;
+    color: #0057c2 ;
+}
+
+.house-icon{
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.house-icon .fa-house{
+    color: #3b8dd4;
+    font-size: 15px;
+    position: relative;
+    right: 10px;
+    left: 5px;
+}
+
+.house-icon .fa-angle-down{
+    position: relative;
+    left: 150px;
+}
+
+.house-icon h4{
+    padding-right: 30px;
+}
+
+.fa-headphones{
+    margin-right: 10px;
+}
+
+.header p{
+    margin-right: 30px;
+    font-size: 14px;
+    color: gray;
+}
+
+.header .user-icon{
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ .fa-user{
+    position: relative;
+    right: 5px;
+}
+
+.container2{
+    width: 1340px;
+    height: 480px;
+    background-color: #01c4e5;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 17px;
+
+}
+
+.container2 img{
+    position: relative;
+    left: 670px;
+    bottom: 90px;
+}
+
+.container2 .text{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+    right: 430px;
+}
+
+.container2 h1{
+    font-size: 40px;
+    position: relative;
+    left: 110px;
+}
+
+.container2 .text p{
+    position: relative;
+    top: 20px;
+    left: 110px;
+}
+
+
+.container-card{
+    width: 1230px;
+    height: 130px;
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+    border: 1px solid #e1e1eb;
+    border-radius: 15px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 60px;
+    padding-left: 30px;
+    font-size: 17px;
 }
 
-.card-container{
-    width: 450px;
-    height: 400px;
-    background-color: white;
-    margin-top: 150px;
-    margin-left: 30px;
-    
-}
-
-.card-container p{
-    text-align: center;
-    padding-top: 10px;
-}
-
-.card-container .card{
-    width: 390px;
-    height: 200px;
-    background-color: #C13584;
-    margin: auto;
-    position: relative;
-    top: -20px;
-    border-radius: 5px;
-}
-
-.card-container .card-content{
-   color: white;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   gap: 10px;
-   padding-top: 0px;
-}
-
-.card button{
-    width: 40px;
-    height: 40px;
-    position: relative;
-    left: 130px;
-    top: 130px;
-    color: white;
-    background-color: #C13584;
-    border: 1px solid pink;
-    border-radius: 50px;
+.firstB{
+    width: 145px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #0057c2;
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid #0057c2;
     cursor: pointer;
- }
+    position: relative;
+    left: 70px;
+}
 
- .card-container2{
-    width: 350px;
-    height: 420px;
-    background-color: white;
-    margin-top: 150px;
-    margin-left: 50px;
- }
+.secondB{
+    width: 145px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #e1e1eb ;
+    font-size: 17px;
+    border: 1px solid #e1e1eb ;
+    position: relative;
+    left: 25px;
+    cursor: pointer;
+}
 
- .card-container2 img{
-    width: 350px ;
- }
+.card1 h3{
+    padding-bottom: 10px;
+}
 
- .card-content2{
+.card2 h3{
+    padding-bottom: 10px;
+}
+
+.card3 h3{
+    padding-bottom: 10px;
+}
+
+.card4 h3{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.button-text p{
+    margin-top: 200px;
+    margin-left: 80px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.button-container button{
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+
+.button-container .butt1{
+    font-size: 18px;
+    font-weight: 500;
+    width: 170px;
+    height: 50px;
+    border: 1px solid #266dab;
+    border-radius: 50px;
+    background-color: #266dab;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.button-container .butt2{
+    font-size: 18px;
+    font-weight: 500;
+    width: 170px;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container .butt3{
+    font-size: 18px;
+    font-weight: 500;
+    width: 100px;
+    height: 50px ;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container .butt4{
+    font-size: 18px;
+    font-weight: 500;
+    width: 160px ;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container .butt5{
+    font-size: 18px;
+    font-weight: 500;
+    width: 160px;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container .butt6{
+    font-size: 18px;
+    font-weight: 500;
+    width: 180px;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container .butt7{
+    font-size: 18px;
+    font-weight: 500;
+    width: 260px;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.button-container .butt8{
+    font-size: 18px;
+    font-weight: 500;
+    width: 130px;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container .butt9{
+    font-size: 18px;
+    font-weight: 500;
+    width: 160px;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container .butt10{
+    font-size: 18px;
+    font-weight: 500;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container .butt11{
+    font-size: 18px;
+    font-weight: 500;
+    width: 190px;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container .butt12{
+    font-size: 18px;
+    font-weight: 500;
+    width: 180px;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container .butt13{
+    font-size: 18px;
+    font-weight: 500;
+    width: 180px;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container .butt14{
+    font-size: 18px;
+    font-weight: 500;
+    width: 170px;
+    height: 50px;
+    border: 1px solid #e1e1eb;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+}
+
+.section-container1{
+    width: 1200px;
+    height: 500px;
+
+}
+
+.avatar img{
+    width: 330px;
+    height: 300px;
+    position: relative;
+    top: 90px;
+    left: 82px;
+    border: 1px solid #01c4e5;
+    border-radius: 15px;
+    background-color: #01c4e5;
+}
+
+.section-container1 .text-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
-    padding-top: 15px;
- }
+    position: relative;
+    left: 60px;
+}
 
- .card-content2:nth-child(2){
-    text-align: center;
- }
+.text-container h2{
+    position: relative;
+    bottom: 190px;
+    right: 50px;
+}
 
-.buttons .fa-facebook-f{
-    width: 30px;
-    height: 30px;
-    border: 1px solid blue;
-    border-radius: 50px;
-    font-size: 13px;
-    background-color: blue;
-    color: white;
+.text-container p{
+    position: relative;
+    left: 220px;
+    bottom: 170px ;
+}
+
+.section-container1 .section-cards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+    left: 455px;
+    bottom: 125px;
+}
+
+.section-container1 .butt1{
+    width: 160px;
+    height: 45px;
+    border: 1px solid #0057c2;
+    border-radius: 10px;
+    background-color: #0057c2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.section-container1 .butt2{
+    width: 160px;
+    height: 45px;
+    border: 1px solid #e1e1eb;
+    border-radius: 10px;
+    background-color: #e1e1eb;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.section-container1 .section-buttons{
+    position: relative;
+    left: 455px;
+    bottom: 90px;    
+}
+
+.section-container1 hr{
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    color: gray;
+    width: 1200px;
+    margin-left: 20px;
+}
+
+.section-container{
+    width: 1200px;
+    height: 500px;
+}
+
+.avatar2 img{
+    width: 330px;
+    height: 300px;
+    border: 1px solid #8b98ab;
+    border-radius: 15px;
+    background-color: #8b98ab;
+    position: relative;
+    top: 5px;
+    left: 82px;
+}
+
+.text-container2{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     position: relative;
-    left: 70px;
-    margin-top: 10px;
+    left: 60px;
+}
+
+.text-container2 h2{
+    position: relative;
+    bottom: 275px;
+    left: 10px;
+}
+
+.text-container2 p{
+    position: relative;
+    left: 140px;
+    bottom: 250px ;
+}
+
+.section-container2 .section-cards2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+    left: 465px;
+    bottom: 210px;
+}
+
+.section-container2 .butt1{
+    width: 160px;
+    height: 45px;
+    border: 1px solid #0057c2;
+    border-radius: 10px;
+    background-color: #0057c2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 12px;
     cursor: pointer;
 }
 
-.buttons .fa-twitter{
-    width: 30px;
-    height: 30px;
-    border: 1px solid ;
-    border-radius: 50px;
-    font-size: 13px;
-    background-color: dodgerblue;
-    color: white;
+.section-container2 .butt2{
+    width: 160px;
+    height: 45px;
+    border: 1px solid #e1e1eb;
+    border-radius: 10px;
+    background-color: #e1e1eb;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.section-container2 .section2-buttons{
+    position: relative;
+    left: 465px;
+    bottom: 180px;
+}
+
+.section-container2 hr{
+        position: relative;
+        left: 50px;
+        bottom: 100px;
+        color: gray;
+        width: 1200px;
+        margin-left: 20px;
+}
+
+
+.avatar3 img{
+    width: 330px;
+    height: 300px;
+    border: 1px solid #c29792;
+    border-radius: 15px;
+    background-color: #c29792;
+    position: relative;
+    top: -40px;
+    left: 82px;
+}
+
+.text-container3{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     position: relative;
-    top: -30px;
-    left: 120px;
+    left: 60px;
+}
+
+.text-container3 h2{
+    position: relative;
+    bottom: 320px;
+    left: -70px;
+}
+
+.text-container3 p{
+    position: relative;
+    left: 160px;
+    bottom: 300px;
+}
+
+.section-container3 .section-cards3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+    left: 470px;
+    bottom: 250px;
+}
+
+
+.section-container3 .butt1{
+    width: 160px;
+    height: 45px;
+    border: 1px solid #0057c2;
+    border-radius: 10px;
+    background-color: #0057c2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 12px;
     cursor: pointer;
 }
 
-.buttons .fa-instagram{
-    width: 30px;
-    height: 30px;
-    border: 1px solid #C13584;
-    border-radius: 50px;
-    font-size: 13px;
-    background-color: #C13584;
-    color: white;
+.section-container3 .butt2{
+    width: 160px;
+    height: 45px;
+    border: 1px solid #e1e1eb;
+    border-radius: 10px;
+    background-color: #e1e1eb;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.section3-buttons{
+    position: relative;
+    left: 465px;
+    bottom: 220px;
+}
+
+.section-container3 hr{
+    position: relative;
+    left: 50px;
+    bottom: 150px;
+    color: gray;
+    width: 1200px;
+    margin-left: 20px;
+}
+
+
+
+.avatar4 img{
+    width: 330px;
+    height: 300px;
+    border: 1px solid #58caa7;
+    border-radius: 15px;
+    background-color: #58caa7;
+    position: relative;
+    top: -90px;
+    left: 82px;
+}
+
+.text-container4{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     position: relative;
-    top: -60px;
-    left: 170px;
+    left: 60px;
+    bottom: 380px;
+}
+
+.text-container4 p{
+    position: relative;
+    left: 67px;
+    top: 20px;
+}
+
+.section-container4 .section-cards4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+    left: 485px;
+    bottom: 320px;
+}
+
+.section-container4 .butt1{
+    width: 160px;
+    height: 45px;
+    border: 1px solid #0057c2;
+    border-radius: 10px;
+    background-color: #0057c2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 12px;
     cursor: pointer;
-
 }
 
-.buttons{
-    margin-left: 40px;
-}
-
-.card-container3{
-    width: 380px;
-    height: 420px;
-    background-color: white;
-    margin-top: 150px;
-    margin-left: 50px;
-    
-}
-
-.card-container3 img{
-    width: 380px;
-}
-
-.card-content3{
-    padding-top: 20px;
-    padding-left: 20px;
-}
-
-.card-content3 h2{
-    padding-bottom: 15px;
-    
-}
-
-.card-content3 button{
-    width: 110px;
-    height: 40px;
-    background-color: dodgerblue;
-    color: white;
-    border: 1px solid dodgerblue;
-    margin-top: 15px;
-    margin-left: 5px;
+.section-container4 .butt2{
+    width: 160px;
+    height: 45px;
+    border: 1px solid #e1e1eb;
+    border-radius: 10px;
+    background-color: #e1e1eb;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
     cursor: pointer;
+}
+
+.section4-buttons{
+    position: relative;
+    left: 470px;
+    bottom: 290px;
+}
+
+.section-container4 hr{
+    position: relative;
+    left: 50px;
+    bottom: 200px;
+    color: gray;
+    width: 1200px;
+    margin-left: 20px;
+}
+
+
+
+.avatar5 img{
+    width: 330px;
+    height: 300px;
+    border: 1px solid #4f81cd;
+    border-radius: 15px;
+    background-color: #4f81cd;
+    position: relative;
+    top: -140px;
+    left: 82px;
+}
+
+.text-container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 60px;
+    bottom: 430px;
+}
+
+.text-container5 h2{
+    position: relative;
+    left: -70px;
+}
+
+.text-container5 p{
+    position: inherit;
+    top: 20px;
+    left: 85px;
+
+}
+
+.section-cards5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+    left: 485px;
+    bottom: 370px;
+}
+
+.section-container5 .butt1{
+    width: 160px;
+    height: 45px;
+    border: 1px solid #0057c2;
+    border-radius: 10px;
+    background-color: #0057c2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+
+.section-container5 .butt2{
+    width: 160px;
+    height: 45px;
+    border: 1px solid #e1e1eb;
+    border-radius: 10px;
+    background-color: #e1e1eb;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.section5-buttons{
+    position: relative;
+    left: 475px;
+    bottom: 340px;
+}
+
+
+.section-container5 hr{
+    position: relative;
+    left: 50px;
+    bottom: 250px;
+    color: gray;
+    width: 1200px;
+    margin-left: 20px;
 }
